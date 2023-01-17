@@ -1,6 +1,5 @@
 <script lang="ts">
-  export let value: string | null = null
+  export let value: string | undefined = ''
 </script>
 
 <input bind:value />
-
